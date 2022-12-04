@@ -4,7 +4,7 @@ Data 3/12/2022
 Fellowship Exam.sas                                                                                          
 																											   
 Written on SAS 9.4                                                                                           
-																											   
+Dependencies: this MUST be executed in a sas environment 9.4+																											   
 This code performs the tasks as detailed in the document provided on 2/12/2022 for the Stream 2:             
 Data Engineering exam.                                                                                       
 																											   
