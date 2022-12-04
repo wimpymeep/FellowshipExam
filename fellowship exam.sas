@@ -376,15 +376,15 @@ proc sql;
 	create table part4_3_1 as select *, SUM(FINALWT) as M_INDWGT from master_data_temp  group by SURVMNTH, naics_21;
 quit;
 
-Part4.3 Step2                    
-PROC SQL summary statistics      
-Inputs:			work.part4_3_1 
-output:			work.part4_3_2 
-Var Created:	IND_M_INV_PT involuntary PT rate by month by industry
-
-STATCAN defines involuntary part time having WHYPT = 6,7. Summing the individuals by month, by industry
-then dividing by the denominator weight and multiplying by 100 gets us the rate involuntary parttime 
-unemployment by month by industry,IND_M_INV_PT
+/*Part4.3 Step2                    */
+/*PROC SQL summary statistics      */
+/*Inputs:			work.part4_3_1 */
+/*output:			work.part4_3_2 */
+/*Var Created:	IND_M_INV_PT involuntary PT rate by month by industry*/
+/**/
+/*STATCAN defines involuntary part time having WHYPT = 6,7. Summing the individuals by month, by industry*/
+/*then dividing by the denominator weight and multiplying by 100 gets us the rate involuntary parttime */
+/*unemployment by month by industry,IND_M_INV_PT*/
 
 
 proc sql;
